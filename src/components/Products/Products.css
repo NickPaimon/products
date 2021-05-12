@@ -1,0 +1,50 @@
+.productsBlock {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.productBlock {
+    border: 1px solid black;
+    background-color: rgba(1,1,1,.1);
+    height: 300px;
+    width: 300px;
+    margin: 5px;
+    font-size: 12px;
+}
+
+.buttonsBlock Button {
+    margin: 10px;
+}
+
+.productImageBlock {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.productImage {
+    height: 100%;
+}
+
+.productDescriptionBlock {
+    text-indent: 10px;
+}
+
+.searchBlock {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.searchInput {
+    margin: 10px;
+    height: 30px;
+    width: 260px;
+    font-size: 20px;
+}

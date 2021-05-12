@@ -1,0 +1,11 @@
+.comment {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    margin-top: 10px;
+}
+
+.comment span {
+    font-size: 12px;
+}
